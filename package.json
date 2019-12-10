@@ -10,7 +10,6 @@
     "@angular/forms": "~8.2.14",
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
-    "@angular/platform-server": "~8.2.14",
     "@angular/router": "~8.2.14",
     "bootstrap": "^4.4.1",
     "core-js": "^3.3.3",
@@ -29,13 +28,18 @@
     "e2e": "ng e2e"
   },
   "devDependencies": {
+    "@angular-devkit/architect": "~0.803.20",
     "@angular-devkit/build-angular": "~0.803.20",
+    "@angular-devkit/build-optimizer": "~0.803.20",
+    "@angular-devkit/core": "~8.3.20",
     "@angular/cli": "~8.3.20",
     "@angular/compiler-cli": "~8.2.14",
     "@angular/language-service": "~8.2.14",
+    "@angular/platform-server": "~8.2.14",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~3.5.0",
     "@types/node": "~10.17.7",
+    "ansi-colors": "3.2.4",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.4.0",
@@ -43,6 +47,7 @@
     "karma-coverage-istanbul-reporter": "~2.1.1",
     "karma-jasmine": "^2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
+    "tslint": "~5.15.0",
     "typescript": "3.6.4"
   },
     "optionalDependencies": {
